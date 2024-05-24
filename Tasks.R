@@ -134,9 +134,6 @@ print(plot)
 
 # Task 6
 
-# Load necessary library for 3D plotting
-
-
 # Create the 3D plot (Space-Time-Cube)
 fig <- plot_ly() %>%
   add_trace(data = rosa_data, x = ~E, y = ~N, z = ~DatetimeUTC, type = 'scatter3d', mode = 'lines', name = 'Rosa', line = list(color = 'red')) %>%
